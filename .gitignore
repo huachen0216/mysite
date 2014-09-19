@@ -5,3 +5,4 @@
 #忽略vim生成的文件
 *.py~
 *.pyc
+.gitignore~
