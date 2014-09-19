@@ -1,8 +1,11 @@
-#忽略eclipse生成的文件
+# eclipse backfile
 .project
 .pydevproject
 
-#忽略vim生成的文件
+# vim backfile
 *.py~
-*.pyc
 .gitignore~
+
+
+# python backfile
+*.pyc
