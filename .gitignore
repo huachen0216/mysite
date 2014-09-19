@@ -1,2 +1,7 @@
+#忽略eclipse生成的文件
 .project
 .pydevproject
+
+#忽略vim生成的文件
+*.py~
+*.pyc
