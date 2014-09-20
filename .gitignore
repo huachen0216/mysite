@@ -1,2 +1,11 @@
+# eclipse backfile
 .project
 .pydevproject
+
+# vim backfile
+*.py~
+.gitignore~
+
+
+# python backfile
+*.pyc
