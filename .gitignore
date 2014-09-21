@@ -9,3 +9,4 @@
 
 # python backfile
 *.pyc
+books/models.pyc
