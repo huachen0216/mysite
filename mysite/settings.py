@@ -65,7 +65,7 @@ DATABASES = {
         'NAME': 'mydb',
         'USER': 'me',
         'PASSWORD': 'secret',
-        'HOST': '127.0.0.1',
+        'HOST': '10.10.3.74',
         #'HOST': '127.0.0.1',    home_ip = 127.0.0.1; work_ip=10.10.3.74
         'PORT': '3306',
     }
