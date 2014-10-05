@@ -16,8 +16,13 @@ def contact(request):
                 request.POST['subject'],
                 request.POST['message'], '1593555048@qq.com',
                 [request.POST.get('email')], '1593555048@qq.com')
-            return HttpResponseRedirect('/contact/thanks/')
-    return render(request, 'contact_form.html', 
-        {'errors': errors})
+            return HttpResponseRedirect('/thanks/')
+    return render(request, 'contact_form.html', {
+        'errors': errors,
+        'subject': request.POST.get('subject', ''),
+        'message': request.POST.get('message', ''),
+        'email': request.POST.get('email', ''),
+    })
 
-
+def thanks(request):
+    return render(request, 'thanks.html')

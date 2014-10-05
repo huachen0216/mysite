@@ -64,7 +64,7 @@ DATABASES = {
         'NAME': 'mydb',
         'USER': 'me',
         'PASSWORD': 'secret',
-        'HOST': '127.0.0.1',
+        'HOST': '10.10.3.74',
         #'HOST': '127.0.0.1',    home_ip = 127.0.0.1; work_ip=10.10.3.74
         'PORT': '3306',
     }
@@ -88,10 +88,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.qq.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = '1593555048@qq.com'
-EMAIL_HOST_PASSWORD = 'huachen0216'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER

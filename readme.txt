@@ -7,3 +7,10 @@ git中的内容与本地中的内容部一直，需要先fetch，然后再merge�
 
 强制push：
 git push -u origin master -f
+
+定期使用项目仓库内容更新自己仓库内容。
+$ git remote add upstream github.com/yeasy/docker_practice
+$ git fetch upstream
+$ git checkout master
+$ git rebase upstream/master
+$ git push -f origin master
